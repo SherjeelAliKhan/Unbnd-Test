@@ -1,0 +1,32 @@
+PODS:
+  - Alamofire (4.2.0)
+  - GPVideoPlayer (1.0.4)
+  - Kingfisher (3.13.1)
+  - MBProgressHUD (1.1.0)
+  - SwiftyJSON (5.0.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.2.0)
+  - GPVideoPlayer
+  - Kingfisher (~> 3.0)
+  - MBProgressHUD (~> 1.1.0)
+  - SwiftyJSON
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - GPVideoPlayer
+    - Kingfisher
+    - MBProgressHUD
+    - SwiftyJSON
+
+SPEC CHECKSUMS:
+  Alamofire: aa2e09d871c9160ac53c90e83c68064a94e3dfbe
+  GPVideoPlayer: fcb68bdba2522f3edd3145b0f1de17423e0b30e1
+  Kingfisher: ed9707a409cc47fddafbcd12a43a9757e3600af5
+  MBProgressHUD: e7baa36a220447d8aeb12769bf0585582f3866d9
+  SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
+
+PODFILE CHECKSUM: 8e47a284a29d465699dae9d83c7315561944caf4
+
+COCOAPODS: 1.8.4

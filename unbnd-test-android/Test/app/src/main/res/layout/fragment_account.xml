@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#161D4E"
+    tools:context=".UserInterfaces.Fragments.AccountFragment"
+    android:layout_marginBottom="50dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:text="Play Videos From Different Paths"
+        android:fontFamily="serif"
+        android:textColor="#D1CCDC"
+        android:textSize="20sp"
+        />
+
+    <LinearLayout
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dp">
+
+        <Button
+            android:id="@+id/loadHardcoded_button"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginHorizontal="20dp"
+            android:background="@drawable/mybutton"
+            android:fontFamily="serif"
+            android:gravity="center"
+            android:text="Load Hardcoded URl"
+            android:textColor="#000000"
+            android:textSize="15sp"
+            android:layout_marginBottom="20dp"
+            />
+
+        <Button
+            android:id="@+id/loadMediaFromPhone_button"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginHorizontal="20dp"
+            android:background="@drawable/mybutton"
+            android:fontFamily="serif"
+            android:gravity="center"
+            android:text="Load Media From Phone"
+            android:textColor="#000000"
+            android:textSize="15sp"
+            android:layout_marginBottom="20dp"
+            />
+    </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>
